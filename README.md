@@ -1,8 +1,6 @@
 # Edo
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/edo`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Samurai policing your Rails application's code!
 
 ## Installation
 
@@ -22,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-run `rake edo:reports` to see the reports
+run `rake edo:report` to see the reports
 run `rake -T edo` to see the options available :)
 
 ## Development
@@ -33,7 +31,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/edo.
+Bug reports and pull requests are welcome on GitHub at https://github.com/KatanaCode/edo.
 
 
 ## License
