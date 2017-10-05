@@ -4,7 +4,7 @@ namespace :edo do
 
   namespace :report do
 
-    REPORTS_DIR = 'doc'
+    REPORTS_DIR = ENV['REPORTS_DIR'] || 'doc'
 
     desc "Generates an HTML report on the current condition of your application's code"
     task :climate do
