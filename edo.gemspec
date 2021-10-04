@@ -9,9 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Bodacious"]
   spec.email         = ["gavin@gavinmorrice.com"]
 
-  spec.summary       = %q{Katana's internal code-police}
-  spec.description   = %q{Write better code–together–by using these reports to make sure
-  the changes you're committing are healthy}
+  spec.summary       = %q{Internal code-police}
+  spec.description   = <<~DESC
+    Write better code–together–by using these reports to make sure
+    the changes you're committing are healthy. Includes Brakeman, RubyCritic, Rubocop and
+    SandiMeter
+  DESC
   spec.homepage      = "http://github.com/bodacious/edo"
   spec.license       = "MIT"
 
