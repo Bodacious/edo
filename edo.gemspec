@@ -7,12 +7,12 @@ Gem::Specification.new do |spec|
   spec.name          = "edo"
   spec.version       = Edo::VERSION
   spec.authors       = ["Bodacious"]
-  spec.email         = ["gavin@katanacode.com"]
+  spec.email         = ["gavin@gavinmorrice.com"]
 
   spec.summary       = %q{Katana's internal code-police}
   spec.description   = %q{Write better code–together–by using these reports to make sure
   the changes you're committing are healthy}
-  spec.homepage      = "http://github.com/katanacode/edo"
+  spec.homepage      = "http://github.com/bodacious/edo"
   spec.license       = "MIT"
 
 
